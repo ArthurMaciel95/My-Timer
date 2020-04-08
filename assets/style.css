@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif:400,700&display=swap');
+:root{
+    --primary-color: #367397   ;
+    --primary-color-darker:#244d64 ;
+}
+*{
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body{
+ padding: 0;
+ margin: 0;
+ background: var(--primary-color) ;
+ font-family: 'Noto Serif', sans-serif;
+ font-size: 1,3em;
+ line-height: 1.5em;
+}
+
+.container{
+    max-width: 640px;
+    margin: 25px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+/* BUTTONS */
+.btn{
+    border-radius: 5px;
+    border: 1px #367397 solid ;
+    padding: 5px;
+    color: #244d64;
+    cursor: pointer;
+    transition: all 0.1s linear;
+}
+.btn:hover{
+ 
+    background:#367397 ;
+    color: white;
+    transition: all 0.1s linear;
+
+}
+.relogio{
+   
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.pausado{
+    color: red;
+}
+
